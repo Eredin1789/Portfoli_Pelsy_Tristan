@@ -107,53 +107,6 @@ body {
         
 }
 
-/*@media screen and (max-width : 900px) {
-      
-    .navbar {
-        padding: 0;
-    }
-
-    .navbar .logo {
-        position: absolute;
-        top: 40px;
-        left: 30px;
-    }
-
-    .nav-links {
-        backdrop-filter: blur(8px);
-        position: absolute;
-        background-color: red;
-        width: 100%;
-        height: 100vh;
-        top: 0;
-        left: 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-left: 100%;
-        transition: all 0.5s ease;
-    }
-
-    .nav-links ul {
-        flex-direction: column;
-        display: flex;
-        align-items: center;
-    }
-
-    .navbar .menuHamburger {
-        display: block;
-    }
-
-    .navbar .nav-links ul div li{
-        margin: 25px 0;
-        font-size: 1.2em;
-    }
-
-    .nav-links.MenuTelephone {
-        margin-left: 0;
-    }
-}*/
-
 .sousMenus {
     color: rgb(202, 202, 202);
     align-items: center;
@@ -197,13 +150,6 @@ body {
    border: solid 2px red;
 }
 
-/*.bandeausup {
-    float: right;
-}*/
-
-/*.bandeausup:last-child {
-    margin-right: 0; /* Supprimer la marge à droite du dernier élément de liste 
-}*/
 
 .ulnomlogo {
     margin : 0;
