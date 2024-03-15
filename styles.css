@@ -1,0 +1,178 @@
+header { 
+    margin-top: 0px;
+    background: url(Images/ArièrePlanPortfolio.png) fixed 100%;
+    height: 1000vh;
+    width : 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+     
+}
+
+body {
+    margin:0;
+    width : 100%
+    
+}
+
+#Début {
+    display : none;
+}
+
+#adifférent {
+    text-decoration : none;
+    padding-left: 10px;
+    padding-right: 10px;
+    border : 0px;
+}
+
+a:visited {
+    color : #0088FF;
+}
+
+a:hover {
+    color : orange;
+}
+
+.ImgTwitter {
+    position : fixed;
+    bottom : 10px;
+    right : 10px;
+    float : right;
+    display : flex;
+    flex-direction : column;
+    max-width: 20px;
+    min-width: 10px;
+    width: 20px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: '';
+    flex-direction: column;
+    width: 100%;
+}
+
+.navbar {
+    position: absolute;
+    margin: 50px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.navbar a {
+    color: rgb(219, 219, 219);
+}
+
+.navbar .logo {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.navbar .nav-links ul {
+    display: flex;
+}
+
+.navbar .nav-links ul div li{
+    margin: 0 25px;
+}
+
+.navbar .nav-links ul div li.active a {
+    color: red;
+    font-weight: 600
+}
+    
+.navbar .menuHamburger {
+    display: none;
+    width: 50px;
+    position: absolute;
+    top: 35px;
+    right: 30px;
+        
+}
+
+@media screen and (max-width : 900px) {
+      
+    .navbar {
+        padding: 0;
+    }
+
+    .navbar .logo {
+        position: absolute;
+        top: 40px;
+        left: 30px;
+    }
+
+    .nav-links {
+        backdrop-filter: blur(8px);
+        position: absolute;
+        background-color: red;
+        width: 100%;
+        height: 100vh;
+        top: 0;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 100%;
+        transition: all 0.5s ease;
+    }
+
+    .nav-links ul {
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+    }
+
+    .navbar .menuHamburger {
+        display: block;
+    }
+
+    .navbar .nav-links ul div li{
+        margin: 25px 0;
+        font-size: 1.2em;
+    }
+
+    .nav-links.MenuTelephone {
+        margin-left: 0;
+    }
+}
+
+.sousMenus {
+    color: rgb(202, 202, 202);
+    align-items: center;
+    display: none
+}
+
+.navbar div ul div:hover .sousMenus{
+    visibility: visible;
+    margin-top: 20px;
+    align-items: center;
+    margin-left: 20px;
+    color: red;
+    display: block;
+}
+
+.navbar div ul div {
+    border: solid 2px;
+    border-color: rgb(128, 0, 100);
+}
+
+.navbar div ul div li .active:hover {
+    color: blue;
+
+}
+
+.active {
+    width: 100%;
+    border: solid 2px;
+    border-color: green;
+}
