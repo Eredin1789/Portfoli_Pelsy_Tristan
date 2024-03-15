@@ -33,7 +33,7 @@ a:hover {
     color : orange;
 }
 
-.ImgTwitter {
+.ImgReseaux {
     position : fixed;
     bottom : 10px;
     right : 10px;
@@ -43,6 +43,14 @@ a:hover {
     max-width: 20px;
     min-width: 10px;
     width: 20px;
+}
+
+#imggmail {
+    border : solid 2px transparent;
+}
+
+#imglinkedin {
+    border : solid 2px transparent;
 }
 
 * {
@@ -99,7 +107,7 @@ body {
         
 }
 
-@media screen and (max-width : 900px) {
+/*@media screen and (max-width : 900px) {
       
     .navbar {
         padding: 0;
@@ -144,7 +152,7 @@ body {
     .nav-links.MenuTelephone {
         margin-left: 0;
     }
-}
+}*/
 
 .sousMenus {
     color: rgb(202, 202, 202);
@@ -175,4 +183,41 @@ body {
     width: 100%;
     border: solid 2px;
     border-color: green;
+}
+
+#logoTristan {
+    width: 100px;
+    float: right;
+}
+
+#navnomlogo {
+   background-color: #09adf3; 
+   width: 100%;
+   display: inline-block;
+   border: solid 2px red;
+}
+
+/*.bandeausup {
+    float: right;
+}*/
+
+/*.bandeausup:last-child {
+    margin-right: 0; /* Supprimer la marge à droite du dernier élément de liste 
+}*/
+
+.ulnomlogo {
+    margin : 0;
+    padding : 0;
+    list-style-type: none;
+}
+
+.ulnomlogo::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#Portfolio-Tristan-Pelsy {
+    color: rgb(242, 245, 255);
+    margin-top: 10px;
 }
